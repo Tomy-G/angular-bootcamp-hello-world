@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Basic Web Template</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <h1>Example text</h1> -->
+    <div class="navbar">
+      <h1>Angular Bootcamp ft. Hello! Worldd</h1>
+    </div>
+    <!-- Remove script and main.js file if you dont need javascript -->
+    <script src="main.js" type="text/javascript"></script>
+    <div class="contenido">
+      <div class="formulario">
+        <form>
+          <div class="campo">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre" />
+          </div>
+
+          <div class="campo">
+            <label for="telf">Teléfono:</label>
+            <input type="text" id="telf" name="telf" placeholder="Teléfono" />
+          </div>
+
+          <div class="campo">
+            <label for="email">Mostrar input email:</label>
+            <label
+              ><input
+                type="checkbox"
+                onclick="mostrarEmail()"
+                id="cbox1"
+                value="first_checkbox"
+            /></label>
+            <input type="email" id="email" name="email" />
+          </div>
+
+          <input type="submit" value="Enviar" />
+        </form>
+      </div>
+      <div class="texto">
+        <textarea name="paragraph_text" class="areatexto" cols="80" rows="30">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, explicabo id? Expedita, earum. Porro culpa impedit neque optio, delectus, illo sit qui, quae eius officia minus maiores mollitia modi? Laudantium!
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro fuga cumque, officiis beatae nemo molestias esse sapiente doloribus delectus commodi tempore similique necessitatibus labore ratione quam cupiditate, excepturi optio eveniet!
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iure doloremque sit harum, laboriosam tempore placeat! Nam, consequatur labore. Atque aut quo provident voluptates omnis minima, molestias maxime dicta veniam.
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam non unde nobis voluptatem aperiam ut commodi? Laudantium aperiam perspiciatis quam amet molestiae laborum, commodi, modi iusto quos excepturi quo neque!
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi necessitatibus dicta sed? Delectus deleniti laudantium minus exercitationem, dicta doloremque nam laborum, maxime deserunt beatae cupiditate quisquam facere aliquid tempora voluptas?
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, impedit, cupiditate quia delectus temporibus debitis excepturi minima adipisci qui ullam neque placeat nam. Iusto laborum commodi corrupti reiciendis cum praesentium!
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, quam. Dolores id alias itaque perferendis in odio, ab cupiditate commodi minus, animi molestias officiis at enim. Repellendus reiciendis molestias nesciunt.
+            
+        </textarea>
+      </div>
+      <div class="texto">
+        <textarea name="paragraph_text" class="areatexto" cols="80" rows="30">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, explicabo id? Expedita, earum. Porro culpa impedit neque optio, delectus, illo sit qui, quae eius officia minus maiores mollitia modi? Laudantium!
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro fuga cumque, officiis beatae nemo molestias esse sapiente doloribus delectus commodi tempore similique necessitatibus labore ratione quam cupiditate, excepturi optio eveniet!
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iure doloremque sit harum, laboriosam tempore placeat! Nam, consequatur labore. Atque aut quo provident voluptates omnis minima, molestias maxime dicta veniam.
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam non unde nobis voluptatem aperiam ut commodi? Laudantium aperiam perspiciatis quam amet molestiae laborum, commodi, modi iusto quos excepturi quo neque!
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi necessitatibus dicta sed? Delectus deleniti laudantium minus exercitationem, dicta doloremque nam laborum, maxime deserunt beatae cupiditate quisquam facere aliquid tempora voluptas?
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, impedit, cupiditate quia delectus temporibus debitis excepturi minima adipisci qui ullam neque placeat nam. Iusto laborum commodi corrupti reiciendis cum praesentium!
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, quam. Dolores id alias itaque perferendis in odio, ab cupiditate commodi minus, animi molestias officiis at enim. Repellendus reiciendis molestias nesciunt.
+            
+        </textarea>
+      </div>
+      <div class="texto">
+        <textarea name="paragraph_text" class="areatexto" cols="80" rows="30">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, explicabo id? Expedita, earum. Porro culpa impedit neque optio, delectus, illo sit qui, quae eius officia minus maiores mollitia modi? Laudantium!
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro fuga cumque, officiis beatae nemo molestias esse sapiente doloribus delectus commodi tempore similique necessitatibus labore ratione quam cupiditate, excepturi optio eveniet!
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iure doloremque sit harum, laboriosam tempore placeat! Nam, consequatur labore. Atque aut quo provident voluptates omnis minima, molestias maxime dicta veniam.
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam non unde nobis voluptatem aperiam ut commodi? Laudantium aperiam perspiciatis quam amet molestiae laborum, commodi, modi iusto quos excepturi quo neque!
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi necessitatibus dicta sed? Delectus deleniti laudantium minus exercitationem, dicta doloremque nam laborum, maxime deserunt beatae cupiditate quisquam facere aliquid tempora voluptas?
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, impedit, cupiditate quia delectus temporibus debitis excepturi minima adipisci qui ullam neque placeat nam. Iusto laborum commodi corrupti reiciendis cum praesentium!
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, quam. Dolores id alias itaque perferendis in odio, ab cupiditate commodi minus, animi molestias officiis at enim. Repellendus reiciendis molestias nesciunt.
+            
+        </textarea>
+      </div>
+    </div>
+
+    <footer class="footer">
+        UN FOOTER CON ENLACES
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+/* h1 {
+    color: red;
+} */
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenido{
+    padding-top: 30px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-right: 10px;
+}
+
+body{
+    margin: 0px;
+}
+
+
+.areatexto{
+    border:2px solid rgb(9, 170, 9);
+    width: 100%;
+}
+
+.texto{
+    min-width: 650px;
+    margin-bottom: 10px;
+}
+
+.navbar{
+    display: flex;
+    background-color: grey;
+    padding-left: 20px;
+}
+
+.footer{
+    display: flex;
+    background-color: grey;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 25px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    min-width: 650px;
+
+}
+
+.campo{
+    margin-bottom: 10px;
+}
